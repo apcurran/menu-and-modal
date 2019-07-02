@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alex Curran">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/css/style.css">
-        <title>Responsive</title>
+        <title>Art R Us</title>
     </head>
     <body>
         <header class="header">
-            <h2 class="header-title">Responsive Web</h2>
+            <h2 class="header-title">Art R Us</h2>
             <div class="header-burger">
                 <div class="header-burger-line"></div>
                 <div class="header-burger-line"></div>
@@ -24,11 +25,33 @@
             </nav>
         </header>
         <main class="main">
-            <section class="subscribe">
-                <h2 class="subscribe-header">Click the button below to subscribe to our newsletter. Be the first to know when we launch a new product!</h2>
-                <button class="subscribe-btn">Subscribe</button>
+            <section class="hero">
+                <div class="hero-color">
+                    <h3 class="hero-color-title">Color</h3>
+                </div>
+                <div class="hero-paint">
+                    <h3 class="hero-paint-title">Paint</h3>
+                </div>
+                <div class="hero-origami">
+                    <h3 class="hero-origami-title">Origami</h3>
+                </div>
+                <div class="hero-photos">
+                    <h3 class="hero-photos-title">Photos</h3>
+                </div>
+                <div class="hero-murals">
+                    <h3 class="hero-murals-title">Murals</h3>
+                </div>
+                <div class="hero-more">
+                    <h3 class="hero-more-title">More</h3>
+                </div>
             </section>
-            <div class="bg-darken">
+            <section class="subscribe">
+                <h2 class="subscribe-title">Click the button below to subscribe to our newsletter. Be the first to know when we upload new art shots!</h2>
+                <div class="subscribe-button-container">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </section>
+            <section class="bg-darken">
                 <div class="modal">
                     <h2 class="modal-title">Please fill out the info below to join our email listing</h2>
                     <span class="modal-close">&times;</span>
@@ -38,8 +61,15 @@
                     <input type="email" id="email" name="email" required>
                     <button type="submit">Join</button>
                 </div>
-            </div>
+            </section>
         </main>
+        <footer class="footer">
+            <ul class="footer-list">
+                <li class="footer-list-item"><a href="#">&copy; Art R Us</a></li>
+                <li class="footer-list-item"><a href="#">Sitemap</a></li>
+                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+        </footer>
 
         <script src="./script.js"></script>
     </body>
