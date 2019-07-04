@@ -90,8 +90,8 @@ button {
   padding: 1.3em 2em;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
+  -webkit-transition: background-color 180ms ease;
+  transition: background-color 180ms ease;
 }
 
 .nav-link:hover {
